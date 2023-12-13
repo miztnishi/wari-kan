@@ -1,8 +1,10 @@
 <template>
   <v-app>
-    <v-main>
-      <router-view />
-    </v-main>
+    <v-container>
+      <v-main>
+        <router-view />
+      </v-main>
+    </v-container>
   </v-app>
 </template>
 
@@ -19,3 +21,8 @@ export default defineComponent({
   },
 });
 </script>
+<style>
+#app {
+  /* text-align: center; */
+}
+</style>

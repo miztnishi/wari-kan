@@ -1,18 +1,24 @@
-<template>
-  <hello-world :msg="test" />
+<template class="main">
+  <warikan />
 </template>
 
 <script lang="ts">
 import { defineComponent } from "vue";
 
 // Components
-import HelloWorld from "../components/HelloWorld.vue";
+import Warikan from "../components/warikan.vue";
 
 export default defineComponent({
   name: "HomeView",
 
   components: {
-    HelloWorld,
+    Warikan,
   },
 });
 </script>
+
+<style scoped>
+.main {
+  text-align: center;
+}
+</style>
