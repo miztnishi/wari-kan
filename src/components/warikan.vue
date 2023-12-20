@@ -49,7 +49,7 @@ export default defineComponent({
       ) {
         return "0";
       }
-      return (this.amount ?? 0 / this.peopleCount).toLocaleString();
+      return (this.amount / this.peopleCount).toLocaleString();
     },
   },
 });
